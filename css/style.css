@@ -1,0 +1,80 @@
+/*
+PALETA DE COLORES
+0F1C2C
+EBEBEB
+1E9BB9
+23C3DF
+*/
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  align-items: center;
+  background: #0F1C2C;
+  color: #EBEBEB;
+  font-family: 'Nunito Sans', sans-serif;
+  justify-content: center;
+}
+.contenedor{
+  margin: 30vh auto;
+  text-align: center;
+}
+.caja2{
+  margin-top: 50px;
+}
+input{
+  background: #EBEBEB;
+  border: 1px solid #1E9BB9;
+  border-radius: 5px;
+  padding: 5px;
+}
+.caja-boton{
+  margin-top: 20px;
+}
+.boton{
+  border: 1px dashed #EBEBEB;
+  border-radius: 10px;
+  color: white; 
+  cursor: pointer;
+  padding: 10px;
+}
+.boton:hover{
+  background-color: white;
+  border: 1px dashed #1E9BB9;
+  color: #1E9BB9;
+}
+.estiloNuevo{
+  color: #1E9BB9;
+  font-family: 'Montserrat', sans-serif;
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+  input{
+    padding: 20px;
+  }
+  .boton{
+    background-color: #EBEBEB;
+    border: 1px dashed #1E9BB9;
+    color: #1E9BB9;
+  } 
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+  .contenedor{
+    margin: 40vh auto;
+  }
+  input{
+    padding: 20px;
+  }
+  .boton{
+    background-color: #EBEBEB;
+    border: 1px dashed #1E9BB9;
+    color: #1E9BB9;
+  } 
+}
