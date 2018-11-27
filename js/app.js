@@ -3,7 +3,9 @@ const newText = document.querySelector('input');
 const titleButton = document.querySelector('a');
 
 titleButton.addEventListener('click', (event) => {
+
   theTitle.innerHTML = newText.value;
-  theTitle.classList.add('estiloNuevo')
+  theTitle.classList.add('estiloNuevo');
   newText.value = '';  
+  
 })
